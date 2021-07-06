@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
+    component: Home
   },
   {
     path: '/posts/:id',
@@ -27,9 +27,10 @@ const routes = [
     component: Tag
   }
 ]
+
 const router = createRouter({
   history: createWebHistory(),
-  routes,
+  routes
 })
 
 export default router
